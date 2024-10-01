@@ -2,7 +2,7 @@
 
 ## Overview
 
-**minitalk** is a simple inter-process communication (IPC) program that utilizes Unix signals. This project is part of the 42 curriculum and focuses on understanding how processes can communicate and share data in a Unix environment.
+**Minitalk** is a simple inter-process communication (IPC) program that utilizes Unix signals. This project is part of the 42 curriculum and focuses on understanding how processes can communicate and share data in a Unix environment.
 
 ## Features
 
