@@ -6,7 +6,7 @@
 #    By: albrusso <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/07 14:16:03 by albrusso          #+#    #+#              #
-#    Updated: 2024/10/01 14:46:03 by albrusso         ###   ########.fr        #
+#    Updated: 2024/10/01 14:47:43 by albrusso         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -155,7 +155,7 @@ clean:
 
 fclean: clean
 	@printf "$(WHITE)%s$(RED)%-$(SIZE)s$(GREEN)%s$(DEFAULT)\n" "Removing...  " "$(SERVER)" "[OK]"
-	@rm -f $(NAME)
+	@rm -f $(SERVER)
 	@printf "$(WHITE)%s$(RED)%-$(SIZE)s$(GREEN)%s$(DEFAULT)\n" "Removing...  " "$(CLIENT)" "[OK]"
 	@rm -f $(CLIENT)
 
